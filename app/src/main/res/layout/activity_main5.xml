@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.adi.kinematics.Main5Activity"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/dotsyellow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="סובב את המסך לקבלת תצוגה מוגדלת"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a77"
+                android:id="@+id/imageView8" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a88"
+                android:id="@+id/imageView9" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a66"
+                android:id="@+id/imageView10" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a11"
+                android:id="@+id/imageView12" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a22"
+                android:id="@+id/imageView11" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a33"
+                android:id="@+id/imageView13" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a44"
+                android:id="@+id/imageView16"
+                android:layout_weight="0.17" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/a55"
+                android:id="@+id/imageView17"
+                android:layout_weight="0.17" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
